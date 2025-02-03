@@ -7,9 +7,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-public class task492 {
+public class Task492 {
+
   public static void main(String[] args) throws IOException {
-    BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/task492/input.txt"));
+    BufferedReader reader = new BufferedReader(
+        new FileReader("src/main/resources/task492/input.txt"));
     StringTokenizer st = new StringTokenizer(reader.readLine());
     long x0 = Long.parseLong(st.nextToken());
     long y0 = Long.parseLong(st.nextToken());
@@ -39,7 +41,8 @@ public class task492 {
     // Проверка условий
     boolean possible = (D_sq >= minDistSq) && (D_sq <= maxDistSq);
 
-    BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/task492/output.txt"));
+    BufferedWriter writer = new BufferedWriter(
+        new FileWriter("src/main/resources/task492/output.txt"));
     writer.write(possible ? "YES" : "NO");
     writer.close();
   }

@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class task548 {
+public class Task548 {
 
   public static void main(String[] args) throws IOException {
     BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/task548/input.txt"));

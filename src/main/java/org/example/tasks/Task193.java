@@ -8,7 +8,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class task193 {
+public class Task193 {
 
   public static void main(String[] args) throws IOException {
     BufferedReader reader = new BufferedReader(
