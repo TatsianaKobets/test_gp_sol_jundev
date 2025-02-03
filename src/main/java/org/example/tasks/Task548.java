@@ -9,7 +9,8 @@ import java.io.IOException;
 public class Task548 {
 
   public static void main(String[] args) throws IOException {
-    BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/task548/input.txt"));
+    BufferedReader reader = new BufferedReader(
+        new FileReader("src/main/resources/task548/input.txt"));
     String num1 = reader.readLine();
     String num2 = reader.readLine();
     reader.close();
@@ -46,7 +47,8 @@ public class Task548 {
       }
     }
 
-    BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/task548/output.txt"));
+    BufferedWriter writer = new BufferedWriter(
+        new FileWriter("src/main/resources/task548/output.txt"));
     writer.write(memo[0][0]);
     writer.close();
   }

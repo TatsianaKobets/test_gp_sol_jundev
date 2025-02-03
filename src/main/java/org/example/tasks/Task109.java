@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Task109 {
+
   public static void main(String[] args) throws IOException {
     BufferedReader reader = new BufferedReader(
         new FileReader("src/main/resources/task109/input.txt"));
@@ -54,7 +55,8 @@ public class Task109 {
         .replaceAll("\\(0\\)", "")
         .replaceAll("0+\\)", ")");
 
-    BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/task109/output.txt"));
+    BufferedWriter writer = new BufferedWriter(
+        new FileWriter("src/main/resources/task109/output.txt"));
     writer.write(output);
     writer.close();
   }
